@@ -27,13 +27,13 @@ boxes.forEach((box) => {
         count += 1;
         console.log(count)
         if (player0Turn) {
-            box.classList.remove("maroon")
+            box.classList.remove("green")
             box.classList.add("black")
             box.innerText = "X"
             player0Turn = false
         } else {
             box.classList.remove("black")
-            box.classList.add("maroon")
+            box.classList.add("green")
             box.innerText = "O"
             player0Turn = true
         }
